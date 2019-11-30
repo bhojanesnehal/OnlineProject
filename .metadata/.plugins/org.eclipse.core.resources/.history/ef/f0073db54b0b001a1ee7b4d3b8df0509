@@ -1,0 +1,73 @@
+package com.jbksitetest.qa.util;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+/*import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Cell;*/
+
+public class TestUtil 
+{
+	
+	public static void main(String[] args) {
+		getTestdata();
+	}
+public static long PAGE_LOAD_TIMEOUT=20;
+public static long IMPLICIT_TIMEOUT=20;
+
+public static String TEST_DATA_SHEET_PATH="E:\\JBKWEBSiteTesting\\JBKWebsiteAutoTesting\\src\\main\\java\\com\\jbksitetest\\qa\\testdata\\JBKWebTestData.xlsx";
+
+public static XSSFWorkbook wbook;
+public static XSSFSheet sheet;
+
+
+//method for data driven approach 
+public static void getTestdata()
+{
+FileInputStream file=null;
+
+try {
+	file=new FileInputStream(TEST_DATA_SHEET_PATH);
+} catch (FileNotFoundException e) {
+System.out.println("FileNotFoundException occurred");
+e.printStackTrace();
+}
+
+try {
+	wbook=new XSSFWorkbook (file);
+} catch (IOException e) {
+	// TODO Auto-generated catch block
+	e.printStackTrace();
+}
+
+sheet=wbook.getSheet("users");
+DataFormatter df=new DataFormatter();
+int rowcount=sheet.getLastRowNum()-sheet.getFirstRowNum();
+
+for(int i=0;i<rowcount+1;i++)
+{
+	Row row=sheet.getRow(i); 
+	for(int j=i;j<row.getLastCellNum();j++)
+	{
+		Cell cell=row.getCell(j);
+		if(cell.getColumnIndex()==0)
+		{
+		System.out.println(df.formatCellValue(cell));
+		}
+		
+	}
+	System.out.println();
+
+}
+
+
+}
+}
+ 

@@ -1,0 +1,18 @@
+package com.jbkclass.qa.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.jbkclass.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+	
+	@FindBy(xpath="//td[text()='User name']")
+	WebElement userNm;
+	
+	@FindBy(xpath="//td[text()='User name']")
+	WebElement userNm;
+	
+	@FindBy(xpath="//td[text()='User name']")
+	WebElement userNm;
+}
