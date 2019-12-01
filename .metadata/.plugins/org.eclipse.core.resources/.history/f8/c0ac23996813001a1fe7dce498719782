@@ -1,0 +1,44 @@
+package com.jbkclass.qa.pages;
+
+import com.jbkclass.qa.base.TestBase;
+
+public class SalesPage  extends TestBase
+{
+	public void clickOnPurchasesLink(){
+		
+	}
+public void clickOnItemInventoryLink(){
+		
+	}
+public void clickOnManufacturingLink(){
+	
+}
+public void clickOnFixedAssetsLink(){
+	
+}
+public void clickOnDimensionsLink(){
+	
+}
+public void clickOnBankingLink(){
+	
+}
+public void clickOnSetupLink(){
+	
+}
+public void clickOnDashboardLink(){
+	
+}
+public void clickOnPreferencesLink(){
+	
+}
+public void clickOnChangePswrdLink(){
+	
+}
+public void clickOnHelpLink(){
+	
+}
+public void clickOnLogutLink(){
+	
+}	
+
+}

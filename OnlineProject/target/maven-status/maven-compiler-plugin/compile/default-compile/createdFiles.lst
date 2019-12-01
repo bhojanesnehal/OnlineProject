@@ -1,0 +1,17 @@
+com\jbkclass\qa\pages\DimensionPage.class
+com\jbkclass\qa\pages\DashboardPage.class
+com\jbkclass\qa\pages\FixedAssetsPage.class
+com\jbkclass\qa\pages\PurchasePage.class
+com\jbkclass\qa\pages\SetupPage.class
+com\jbkclass\qa\base\TestBase.class
+com\jbkclass\qa\utility\SeleniumListener.class
+com\jbkclass\qa\pages\LoginPage.class
+com\jbkclass\qa\utility\TestUtil.class
+com\jbkclass\qa\pages\ChangePswrdPage.class
+com\jbkclass\qa\pages\HelpPage.class
+com\jbkclass\qa\pages\BankingPage.class
+com\jbkclass\qa\pages\SalesPage.class
+com\jbkclass\qa\pages\ManufacturingPage.class
+com\jbkclass\qa\pages\LogoutPage.class
+com\jbkclass\qa\pages\PreferencePage.class
+com\jbkclass\qa\pages\ItemInventoryPage.class

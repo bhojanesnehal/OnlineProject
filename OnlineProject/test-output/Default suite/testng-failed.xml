@@ -3,13 +3,18 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jbkclass.qa.testcases.LoginPageTest">
+      <class name="com.jbkclass.qa.testcases.SalesPageTest">
         <methods>
-          <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="clickOnItemInventoryLinkTest"/>
+          <include name="clickOnManufacturingLinkTest"/>
           <include name="closeBrowser"/>
+          <include name="clickOnPreferencesLinkTest"/>
+          <include name="setUp"/>
+          <include name="clickOnPurchaseLinkTest"/>
+          <include name="clickOnLogutLinkTest"/>
+          <include name="clickOnHelpLinkTests"/>
         </methods>
-      </class> <!-- com.jbkclass.qa.testcases.LoginPageTest -->
+      </class> <!-- com.jbkclass.qa.testcases.SalesPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

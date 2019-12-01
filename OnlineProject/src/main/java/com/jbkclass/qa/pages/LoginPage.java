@@ -4,14 +4,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+
 import com.jbkclass.qa.base.TestBase;
 
 public class LoginPage extends TestBase {
 	
-	@FindBy(xpath="//td[text()='User name']")
+	
+	@FindBy(name="user_name_entry_field")
 	WebElement userNm;
 	
-	@FindBy(xpath="//td[text()='Password:']")
+	@FindBy(name="password")
 	WebElement Password;
 	
 	@FindBy(name="SubmitUser")
@@ -24,8 +26,9 @@ public class LoginPage extends TestBase {
 	 
 	public SalesPage login(String un, String pass)
 	{
+		//System.out.println("data"+un+pass);
 		userNm.sendKeys(un);	
-		Password.sendKeys(prop.getProperty(pass));	
+		Password.sendKeys(pass);
 		submitBtn.click();
 		
 		return new SalesPage();

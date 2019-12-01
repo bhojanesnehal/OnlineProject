@@ -27,6 +27,7 @@ SalesPage salepg;
 	@Test
 	 public void loginTest()
 	  {
+		//System.out.println("prop"+prop.getProperty("username")+ prop.getProperty("password"));
 	 salepg=logpg.login(prop.getProperty("username"), prop.getProperty("password")); 
 
 	  }

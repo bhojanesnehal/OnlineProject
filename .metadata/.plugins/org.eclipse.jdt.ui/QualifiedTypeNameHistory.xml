@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-<fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxDriver"/>
@@ -13,11 +11,8 @@
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="com.jbksitetest.qa.pages.DashboardPage"/>
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="com.jbksitetest.qa.pages.OperatorsPage"/>
 <fullyQualifiedTypeName name="org.testng.Assert"/>
 <fullyQualifiedTypeName name="com.jbksitetest.qa.pages.LogOutPage"/>
@@ -49,4 +44,20 @@
 <fullyQualifiedTypeName name="com.jbkclass.qa.utility.TestUtil"/>
 <fullyQualifiedTypeName name="com.jbkclass.qa.base.TestBase"/>
 <fullyQualifiedTypeName name="com.jbkclass.qa.pages.SalesPage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.FindBy"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.PurchasePage"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.PageFactory"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.ItemInventoryPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.ManufacturingPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.FixedAssetsPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.DimensionPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.BankingPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.SetupPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.DashboardPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.PreferencePage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.ChangePswrdPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.HelpPage"/>
+<fullyQualifiedTypeName name="com.jbkclass.qa.pages.LogoutPage"/>
 </qualifiedTypeNameHistroy>
