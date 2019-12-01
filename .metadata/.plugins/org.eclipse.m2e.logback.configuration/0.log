@@ -4757,3 +4757,89 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2019-11-30 23:30:40,373 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-30 23:30:40,377 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
 2019-11-30 23:55:52,186 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/help,null}
+2019-12-01 16:01:01,653 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:01:01,677 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:01:01,685 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:01:01,685 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:01:05,765 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:01:05,765 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:01:05,765 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:01:05,765 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:01:45,802 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:01:45,802 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:01:45,810 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:01:45,810 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:03:56,178 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:03:56,178 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:03:56,193 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:03:56,193 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:04:30,268 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:04:30,268 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:04:30,284 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:04:30,284 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:05:49,536 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:05:49,536 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:05:49,540 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:05:49,544 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:06:37,840 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:06:37,840 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:06:37,840 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:06:37,840 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:09:21,857 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:09:21,857 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:09:21,872 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:09:21,872 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:12:17,450 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:12:17,450 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:12:17,466 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:12:17,466 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:13:17,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:13:17,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:13:17,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:13:17,042 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:13:46,923 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:13:46,923 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:13:46,939 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:13:46,939 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:14:05,869 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:14:05,869 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:14:05,869 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:14:05,869 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:18:58,352 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:18:58,352 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:18:58,367 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:18:58,367 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:19:48,215 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:19:48,215 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:19:48,231 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:19:48,231 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:19:57,533 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:19:57,533 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:19:57,541 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:19:57,541 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:20:13,953 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:20:13,953 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:20:13,953 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:20:13,953 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:21:45,112 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:21:45,112 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:21:45,127 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:21:45,127 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:23:41,787 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\JBKWEBSiteTesting\OnlineProject
+2019-12-01 16:23:41,803 [Worker-12] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test
+2019-12-01 16:24:53,388 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:24:53,388 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:24:53,404 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:24:53,404 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:24:54,437 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:24:54,437 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:24:54,437 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:24:54,437 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:25:00,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:25:00,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:25:00,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:25:00,647 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
+2019-12-01 16:25:03,981 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:25:03,981 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\main\resources
+2019-12-01 16:25:03,981 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-01 16:25:03,981 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\JBKWEBSiteTesting\OnlineProject\src\test\resources
