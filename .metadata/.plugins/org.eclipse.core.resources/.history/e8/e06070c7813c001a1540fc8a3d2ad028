@@ -1,0 +1,38 @@
+package stepDefinition;
+
+import com.qa.pages.LoginPage;
+import com.qa.util.TestBase;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class AdminStepDefinition extends TestBase{
+
+	LoginPage loginPg;
+	
+	@Given("^user opens the browser and enters the AdminLtE url in browser$")
+	public void user_opens_the_browser_and_enters_the_AdminLtE_url_in_browser() {
+		loginPg=new LoginPage();
+		TestBase.initialization();
+		
+	}
+
+	@Then("^login page opens$")
+	public void login_page_opens(){
+	}
+
+	@When("^user enter username and password and clicks on login button$")
+	public void user_enter_username_and_password_and_clicks_on_login_button() {
+	}
+
+	@Then("^verify dashboard user name$")
+	public void verify_dashboard_user_name() {
+	}
+
+	@Then("^verify Dashborad User Status$")
+	public void verify_Dashborad_User_Status(){
+	}
+
+}

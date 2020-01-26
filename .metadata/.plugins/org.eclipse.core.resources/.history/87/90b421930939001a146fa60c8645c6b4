@@ -1,0 +1,70 @@
+package stepDefinition;
+
+import java.util.List;
+
+import junit.framework.Assert;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class AddNewUser {
+	public static WebDriver driver;
+	@Given("^user is already on the login page$")
+	public void user_is_already_on_the_login_page() {
+
+				System.setProperty("webdriver.chrome.driver", "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
+				driver=new ChromeDriver();
+driver.get("file:///C:/Users/Vayuva/Desktop/oooOffline%20Website%20_%20new/index.html");
+			}
+	//\"(.*)\"
+
+	@When("^user enter \"([^\"]*)\" and \"([^\"]*)\" and clicks on login button$")
+	public void user_enter_username_and_password_and_clicks_on_login_button(String username, String password) 
+	{
+		driver.findElement(By.id("email")).sendKeys(username);
+		driver.findElement(By.id("password")).sendKeys(password);
+		
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+	}
+
+	@Then("^user login should successful and user enter on Home page$")
+	public void user_login_should_successful_and_user_enter_on_Home_page()  {
+		String title=driver.getTitle();
+		Assert.assertEquals("AdminLTE 2 | Dashboard", title);
+	}
+	
+	
+
+
+@When("^user clicks on Users link and clicks on Add user button$")
+public void user_clicks_on_Users_link_and_clicks_on_Add_user_button() {
+	driver.findElement(By.linkText("Users")).click();
+			driver.findElement(By.xpath("//button[text()='Add User']")).click();
+   
+}
+
+
+
+@Then("^the pop up should popped up with successful user added message$")
+public void the_pop_up_should_popped_up_with_successful_user_added_message() {
+	Alert alert=driver.switchTo().alert();
+	
+	System.out.println(alert.getText());
+}
+@Then("^close the browser$")
+public void close_the_browser()  {
+	driver.quit();
+}
+
+
+
+}
+

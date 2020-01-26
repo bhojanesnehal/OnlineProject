@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite for Online project" duration-ms="12814" started-at="2019-12-01T10:51:53Z" finished-at="2019-12-01T10:52:06Z">
+  <suite name="Default suite" duration-ms="18595" started-at="2019-12-13T15:52:39Z" finished-at="2019-12-13T15:52:58Z">
     <groups>
     </groups>
-    <test name="Online project Test cases" duration-ms="12814" started-at="2019-12-01T10:51:53Z" finished-at="2019-12-01T10:52:06Z">
-      <class name="com.jbkclass.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbkclass.qa.testcases.LoginPageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="10043" started-at="2019-12-01T16:21:53Z" finished-at="2019-12-01T16:22:03Z">
+    <test name="Default test" duration-ms="18595" started-at="2019-12-13T15:52:39Z" finished-at="2019-12-13T15:52:58Z">
+      <class name="com.jbkclass.qa.testcases.HelpPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jbkclass.qa.testcases.HelpPageTest@66a3ffec]" name="setUp" is-config="true" duration-ms="11714" started-at="2019-12-13T21:22:39Z" finished-at="2019-12-13T21:22:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.jbkclass.qa.testcases.LoginPageTest@66a3ffec]" name="loginTest" duration-ms="1316" started-at="2019-12-01T16:22:03Z" finished-at="2019-12-01T16:22:05Z">
+        <test-method status="PASS" signature="getNewWindowTitleTest()[pri:0, instance:com.jbkclass.qa.testcases.HelpPageTest@66a3ffec]" name="getNewWindowTitleTest" duration-ms="4621" started-at="2019-12-13T21:22:51Z" finished-at="2019-12-13T21:22:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbkclass.qa.testcases.LoginPageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="1400" started-at="2019-12-01T16:22:05Z" finished-at="2019-12-01T16:22:06Z">
+        </test-method> <!-- getNewWindowTitleTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.jbkclass.qa.testcases.HelpPageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="2191" started-at="2019-12-13T21:22:56Z" finished-at="2019-12-13T21:22:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.jbkclass.qa.testcases.LoginPageTest -->
-    </test> <!-- Online project Test cases -->
-  </suite> <!-- Suite for Online project -->
+      </class> <!-- com.jbkclass.qa.testcases.HelpPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

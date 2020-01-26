@@ -1,0 +1,19 @@
+Feature: AdmitLTE login Feature
+#Scenario Outline: AdmitLTE login Scenario
+#Given user is already on the login page
+#When user enter "kiran@gmail.com" and "123456" and clicks on login button //data driven with not using Examples keyword
+#When user enter "<username>" and "<password>" and clicks on login button 
+#Then user login should successful and user enter on Home page
+#Examples:
+#| username | password |
+#| kiran@gmail.com | 123456 |
+
+
+
+ #by using data table
+
+Scenario: AdmitLTE login Scenario#Given user is already on the login page
+When user enter username and password and clicks on login button 
+| username | password |
+| kiran@gmail.com | 123456 |
+Then user login should successful and user enter on Home page

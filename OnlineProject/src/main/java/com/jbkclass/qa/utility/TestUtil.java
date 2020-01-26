@@ -45,8 +45,9 @@ public static Object[][] getTestdata(String sheetname)
 		
 		int rows=sheet.getLastRowNum();
 		int cols=sheet.getRow(0).getLastCellNum();
+		System.out.println("rows "+rows+"cols "+cols);
 		
-		obj=new Object[rows-1][cols];
+		obj=new Object[rows-1][cols-1];
 
 	
 		for(int i=0;i<rows-1;i++)
@@ -63,7 +64,7 @@ public static Object[][] getTestdata(String sheetname)
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
-	
+//	System.out.println( obj[0][1]);
 	return obj;
 	}
 

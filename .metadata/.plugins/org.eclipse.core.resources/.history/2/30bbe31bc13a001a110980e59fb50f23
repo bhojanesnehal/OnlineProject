@@ -1,0 +1,20 @@
+Feature: AdmitLTE add new user Feature
+
+Scenario Outline: add new user Scenario
+When user enter "<username>" and "<password>" and clicks on login button 
+Then user login should successful and user enter on Home page
+Examples:
+| username | password | 
+|Kiran@gmail.com|123456|
+
+Scenario Outline: add new user Scenario
+
+When  user clicks on Users link and clicks on Add user button 
+Then users fills the content as username,mobile,email,gender,state and password
+Then clicks on submit button
+Then the pop up should popped up with successful user added message
+
+Examples:
+| username | mobile | email|gender|state|
+|Snehal | 123456 |bhojane@gmail.com|Female|Maharashtra|
+|Vikas | 1234 |Bodade@gmail.com|Male|Maharashtra|

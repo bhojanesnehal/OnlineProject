@@ -1,0 +1,17 @@
+package runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = "E:\\JBKWEBSiteTesting\\AdmiLteBDDFramework\\src\\main\\java\\feature\\adminLte.feature",
+		glue={"stepDefinition"}, //the path of the step definition files
+		format= {"pretty","html:test-outout"},dryRun=false,monochrome=true, tags={"~@regression"})
+
+public class RunnerClass {
+
+}
+ 

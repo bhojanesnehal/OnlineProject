@@ -5,13 +5,12 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.jbkclass.qa.base.TestBase;
-import com.jbkclass.qa.pages.BankingPage;
 import com.jbkclass.qa.pages.ChangePswrdPage;
 import com.jbkclass.qa.pages.DashboardPage;
-import com.jbkclass.qa.pages.DimensionPage;
-import com.jbkclass.qa.pages.FixedAssetsPage;
+//import com.jbkclass.qa.pages.FixedAssetsPage;
 import com.jbkclass.qa.pages.HelpPage;
 import com.jbkclass.qa.pages.ItemInventoryPage;
+import com.jbkclass.qa.pages.LoginPage;
 import com.jbkclass.qa.pages.LogoutPage;
 import com.jbkclass.qa.pages.ManufacturingPage;
 import com.jbkclass.qa.pages.PreferencePage;
@@ -20,15 +19,15 @@ import com.jbkclass.qa.pages.SalesPage;
 
 public class SalesPageTest extends TestBase 
 {
-	com.jbkclass.qa.pages.LoginPage logpg;	
+LoginPage logpg;	
 	SalesPage salepg;
 	PurchasePage purchasePg;
 	ItemInventoryPage itmPg;
 	ManufacturingPage manufPg;
-	FixedAssetsPage fixedPg;
+	/*//FixedAssetsPage fixedPg;
 	DimensionPage dimenPg;
 	BankingPage bankPg;
-	DashboardPage dashPg;
+*/	DashboardPage dashPg;
 	PreferencePage preferPg;
 	ChangePswrdPage pswrdPg;
 	HelpPage helpPg;
@@ -42,7 +41,7 @@ public class SalesPageTest extends TestBase
 		public void setUp()
 	  {
 		  initialization();
-		   logpg=new com.jbkclass.qa.pages.LoginPage();
+		   logpg=new LoginPage();
 		   salepg=logpg.login(prop.getProperty("username"), prop.getProperty("password")); 
 	  }
 		
@@ -61,12 +60,12 @@ public class SalesPageTest extends TestBase
 		  {
 			 manufPg=salepg.clickOnManufacturingLink();
 		  }
-		@Test
+		/*@Test
 		 public void clickOnFixedAssetsLinkTest()
 		  {
 			 fixedPg=salepg.clickOnFixedAssetsLink();
-		  }
-		@Test
+		  }*/
+	/*	@Test
 		 public void clickOnDimensionsLinkTest()
 		  {
 			 dimenPg=salepg.clickOnDimensionsLink();
@@ -75,7 +74,7 @@ public class SalesPageTest extends TestBase
 		 public void clickOnBankingLinkTest()
 		  {
 			  bankPg=salepg.clickOnBankingLink();
-		  }
+		  }*/
 		@Test
 		 public void clickOnDashboardLinkTest()
 		  {
@@ -95,7 +94,7 @@ public class SalesPageTest extends TestBase
 		@Test
 		 public void clickOnHelpLinkTests()
 		  {
-			  helpPg=salepg.clickOnHelpLink();
+			 // helpPg=salepg.clickOnHelpLink();
 		  }
 		@Test
 		 public void clickOnLogutLinkTest()

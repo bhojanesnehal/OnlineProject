@@ -65,18 +65,7 @@ public ManufacturingPage clickOnManufacturingLink(){
 	
 	return new ManufacturingPage();
 }
-public FixedAssetsPage clickOnFixedAssetsLink(){
-	fixedAssetsLink.click();
-	return new FixedAssetsPage();
-}
-public DimensionPage clickOnDimensionsLink(){
-	dimensionsLink.click();
-	return new DimensionPage();
-}
-public BankingPage clickOnBankingLink(){
-	bankingLink.click();
-	return new BankingPage();
-}
+
 public SetupPage clickOnSetupLink(){
 	setupLink.click();
 	return new SetupPage();
@@ -93,7 +82,7 @@ public ChangePswrdPage clickOnChangePswrdLink(){
 	chngPswrdLink.click();
 	return new ChangePswrdPage();
 }
-public HelpPage clickOnHelpLink(){
+public HelpPage clickOnHelpLink(){          //CHCEK THIS TOMORROW
 	helpLink.click();
 	return new HelpPage();
 }
@@ -101,6 +90,17 @@ public LogoutPage clickOnLogutLink(){
 	logOutLink.click();
 	return new LogoutPage();
 }
-
+/*public FixedAssetsPage clickOnFixedAssetsLink(){
+fixedAssetsLink.click();
+return new FixedAssetsPage();
+}
+public DimensionPage clickOnDimensionsLink(){
+dimensionsLink.click();
+return new DimensionPage();
+}
+public BankingPage clickOnBankingLink(){
+bankingLink.click();
+return new BankingPage();
+}*/
 
 }
